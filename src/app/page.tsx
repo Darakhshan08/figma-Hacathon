@@ -6,7 +6,6 @@ import LatestProducts from "./components/LatestProducts";
 import TrendingProducts from "./components/TrendingProducts";
 import Shopex from "./components/Shopex";
 import Blog from "./components/Blog";
-import Footer from "./components/Footer";
 import TopCategories from "./components/TopCategories";
 
 export default function HektoHeader() {
@@ -77,9 +76,8 @@ export default function HektoHeader() {
 <TrendingProducts/>
 <TopCategories/>
 <Blog/>
-   
-   {/* <ProductDetails/> */}
-   <Footer/>
+
+  
    
    
    </>
