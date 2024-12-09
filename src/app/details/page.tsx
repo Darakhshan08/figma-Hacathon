@@ -254,7 +254,7 @@ function ProductDetails() {
             </div>
             <div className="flex flex-col p-4">
               <div className="flex flex-row items-center justify-between">
-                <h3 className="text-lg font-medium text-[#151875]">Women's Fashion</h3>
+                <h3 className="text-lg font-medium text-[#151875]">Women&apos;s Fashion</h3>
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
                     <Star
