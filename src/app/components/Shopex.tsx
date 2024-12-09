@@ -1,8 +1,14 @@
-import React from 'react'
-import { Truck, Award, Clock } from "lucide-react";
+import React from 'react';
 import Image from 'next/image';
 
-function Shopex() {
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * Shopex is a component that shows what Shopex offers to its customers.
+ * It displays four cards with an image, title and description.
+ * The cards are: 24/7 support, cashback, premium service and free service.
+ * The component is responsive and has a nice animation on hover.
+ */
+/******  46171bd4-e7f4-42b3-ba2c-bac1d602a8c9  *******/function Shopex() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
     <h1 className="text-center text-3xl font-bold text-blue-900 mb-12">

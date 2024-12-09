@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Heart,
   Star,
-  StarHalf,
   Facebook,
   Twitter,
   Instagram,
@@ -132,7 +131,7 @@ function ProductDetails() {
               <Facebook className="w-4 sm:w-5 h-4 sm:h-5 text-gray-600 hover:text-gray-800" />
               <Instagram className="w-4 sm:w-5 h-4 sm:h-5 text-pink-500 hover:text-gray-800" />
               <Twitter className="w-4 sm:w-5 h-4 sm:h-5 text-gray-600 hover:text-gray-800" />
-             
+
             </div>
           </div>
         </div>
@@ -325,25 +324,25 @@ function ProductDetails() {
             </div>
           </div>
         </div>
-         {/* Logo Showcase */}
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
-      <div className="overflow-x-auto">
-      <div className="flex justify-center items-center bg-white py-4">
-                    <div className="flex justify-between items-center w-full max-w-6xl px-4">
-                    <Image
-      src="https://s3-alpha-sig.figma.com/img/8b8f/73ef/0917d8479a5c41ee633cb4a6233f64b7?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QtaRKpQa58WhEx4WrkNOgoy~DA7m~EQ8fu8mUxFJJfoEaDtCLkbgc85Ygc2VZoQs70W8Ug8Ug8Jw6a96P6VprhRBwfKdV-1AQXcHED382XyT06z7PZifBj1KO6xZ1C2ycZX73UBgXQabRkkKcr0UxuOg2wYx-BeQThti-Hk~gTepLRdGmeosHD4Q9c9nTCVua1PoE4h2BC0rmplIMUVB7f~48i4h5XU2MBkNg7Ur~6KsuqrUikMGwDv2aEOwU2MnLeEdLugQq0oZQBTdjszsEr7aCuS~GyJhrqqMIp7u21~YXEcpls9GBKu0wBI6IXy3eFDZ1VsenJsV6xY0o05UBQ__"
-      alt="Fashion LIVE logo"
-      layout="responsive"
-      width={100}
-      height={50}
-    />
-      
-                    </div>
-                </div>
+        {/* Logo Showcase */}
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+          <div className="overflow-x-auto">
+            <div className="flex justify-center items-center bg-white py-4">
+              <div className="flex justify-between items-center w-full max-w-6xl px-4">
+                <Image
+                  src="https://s3-alpha-sig.figma.com/img/8b8f/73ef/0917d8479a5c41ee633cb4a6233f64b7?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QtaRKpQa58WhEx4WrkNOgoy~DA7m~EQ8fu8mUxFJJfoEaDtCLkbgc85Ygc2VZoQs70W8Ug8Ug8Jw6a96P6VprhRBwfKdV-1AQXcHED382XyT06z7PZifBj1KO6xZ1C2ycZX73UBgXQabRkkKcr0UxuOg2wYx-BeQThti-Hk~gTepLRdGmeosHD4Q9c9nTCVua1PoE4h2BC0rmplIMUVB7f~48i4h5XU2MBkNg7Ur~6KsuqrUikMGwDv2aEOwU2MnLeEdLugQq0oZQBTdjszsEr7aCuS~GyJhrqqMIp7u21~YXEcpls9GBKu0wBI6IXy3eFDZ1VsenJsV6xY0o05UBQ__"
+                  alt="Fashion LIVE logo"
+                  layout="responsive"
+                  width={100}
+                  height={50}
+                />
 
-</div>
-      
-    </section>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
       </section>
     </main>
 

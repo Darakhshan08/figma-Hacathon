@@ -1,22 +1,18 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import FeaturedProducts from "./components/FeaturedProducts";
 import HeroSection from "./components/HeroSection";
 import LatestProducts from "./components/LatestProducts";
 import TrendingProducts from "./components/TrendingProducts";
 import Shopex from "./components/Shopex";
-import TopHeader from "./components/TopHeader";
-import Header from "./components/Header";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 import TopCategories from "./components/TopCategories";
-import ProductDetails from "./components/ProductDetails";
-export default function HektoHeader() {
 
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+export default function HektoHeader() {
   return (
    <>
-   {/* Top Bar */}
+ 
   
 
  {/* Main Navigation */} 

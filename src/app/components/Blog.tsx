@@ -1,5 +1,5 @@
 import React from 'react'
-import { CalendarDays, PenTool, User } from "lucide-react";
+import { CalendarDays, PenTool } from "lucide-react";
 import Image from 'next/image';
 
 function Blog() {

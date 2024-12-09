@@ -30,12 +30,7 @@ function TopCategories() {
         image: "https://s3-alpha-sig.figma.com/img/b385/2c7e/ad352f97e7cdd9b4848c0ae24630f6ae?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MNw-pIQfCkFDFoTWPWU8I6KyAEWjecYOimhZhN8UWGq2GMHdCPt0nxvbuK8SI34RLT4BOAURfQPpFXkqyL~ndZy1MEBf7KyXF9iarR6ztQ7szcpV50mnyM4gjWKSQPzMs~5vGxKJSQ7m6zgpm2qwKLgfEqEbn-si0TUVfLLUlkKqlJfc0DyuYuLDbeFjq4t2iVbKQ0WU5eOZFmuiXPvDiS32Y3vO7AP9rRHXDBIyvM-qyvr0NiqfmC8VP0VHyLsssGTOLDVFpUOV2zjIrRnNwbYylYlKpGCqd1GAxea8WNspaQwLTxdPH6BO2sHlybYtF0uaeOq64opGBW2kzZ3ExA__",
       },
     ];
-    const nextSlide = () => {
-      setActiveSlide((prev) => (prev + 1) % products.length);
-    };
-    const prevSlide = () => {
-      setActiveSlide((prev) => (prev - 1 + products.length) % products.length);
-    };
+
   return (
     <main className="w-full">
     {/* Top Categories Section */}
@@ -46,7 +41,7 @@ function TopCategories() {
 
   <div className="relative">
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-8">
-      {products.map((product, index) => (
+      {products.map((product) => (
         <div key={product.id} className="flex flex-col items-center group">
           <div className="relative rounded-full bg-[#F6F7FB] shadow-lg p-4 sm:p-6 lg:p-8 mb-4 w-full aspect-square group-hover:shadow-[0px_15px_25px_-10px_rgba(142,_68,_173,_0.5)]"> {/* Apply shadow here */}
           <Image
