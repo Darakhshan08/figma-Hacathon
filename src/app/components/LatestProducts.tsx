@@ -32,7 +32,7 @@ function LatestProducts() {
         <div className="relative">
         <div className="flex justify-center items-center h-full">
   <Image
-    src="https://s3-alpha-sig.figma.com/img/4e1b/8c82/f15b5765f466da190975101e10dfdab2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b7Z7r55L5ju3SPvVVSihI-PWF3QcuX6TmdTjQ7KzeB0XxgwjOY1X3laCv6xAereqdXpWncX-FOmMZhNVTiXB3xAeFNiREs8bdU5g6zGC1CevkMRLPz5puykwi0lgWmGiqQ5C3h6h35CTl2GkmzD5Hvap1OybPbO4PA0eGjECHXSLF~yOqbPiKtBMev2F8xnLlrLp3RImUXNHLB~SXk~ssRL0IONIFNAlIAwijZfPsArZtDAenNh5dG18IlIz6bVBCaqjAeOm43l0sGz9cBDk4JNXkknzZrxnAR-hutKfrWk3aZlybMDFwwC5WnFrwzDSWtokibWNHx4T8zvxxu70PA__"
+    src="/Images/image7.png"
     alt="Brown chair"
     width={223}
     height={229}
@@ -135,10 +135,10 @@ function LatestProducts() {
         <div className="relative">
         <div className="flex justify-center items-center h-full">
   <Image
-    src="https://s3-alpha-sig.figma.com/img/e8d0/7d05/5f94bd8eef92ee5845fcca1420c3e6fa?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qApKWtYTo8tuuzgaZH~leeyvu-Ab2it6P-22fhZtPkbZuqnICw-iHyfY9C9yL7oCA1d2XmnXwi8cj72QHmoHQ5kqYJxn-H2Mv0mLOBQa8OMYwMF5ViHqnWQRuiCGsjJbMkUlMOZNNpYag23BjchVemWnABeUHPFKNlhiBgvn69FdEgdbAnxAJCQueBfwDBtGvj~6AJU4A-PqiWn5huvXHxLk-M1rp6VhPT8LvQuyNuSXK6IAOAgUpnsAkZIqvCKjvwlxWdEQmy-ZhKpSjbN6-RXFoWJAZX67IHtWSRjHPLoEWy9meUDwEi1LR-ElHhdA~djQ-1wNFg6jWmTEfhZ-Og__"
+    src="/Images/image2.png"
     alt="Brown chair"
-    width={223}
-    height={229}
+    width={267}
+    height={277}
     className="object-cover"
   />
 </div>
@@ -168,11 +168,10 @@ function LatestProducts() {
         <div className="relative">
         <div className="flex justify-center items-center h-full">
   <Image
-    src="
-https://s3-alpha-sig.figma.com/img/0081/87bd/b43127cc352f32aef1be3bab70906d81?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZIGKfdtLzEgHMKhw~aqegJR7L5YcGgudDkH2jD6Uj87CeYNgVaT8sQnwULBZ3v4wHkVOtlIoV2N3-toZyYJRReFGaesEIKfnoQJKO7FKa7w2Ucj3AwQsY2Krg6rgeIGRrImSmK4dXdRLUZ1yjnhPCAPLGztdzuk8WrhP6m1GsE6hvCPpyBqoh6dBK1YPoDDvFydAgjIbiQjvGda1NZO3SCk3FtIUjxSfZY0PB7F2jQ4ifNVpwSLm8mcs1VSveB62xkIDpP1uzZ7pfCCmcsZn9qI2GxooLriK27X4C30AS~E~JfSp8vToma8xQdWL~MWP14NfPjq5xnX0YcdaEL0V-w__"
+    src="/Images/image8.png"
     alt="Brown chair"
-    width={345}
-    height={306}
+    width={303}
+    height={264}
     className="object-cover"
   />
 </div>
@@ -202,10 +201,10 @@ https://s3-alpha-sig.figma.com/img/0081/87bd/b43127cc352f32aef1be3bab70906d81?Ex
         <div className="relative">
         <div className="flex justify-center items-center h-full">
   <Image
-    src="https://s3-alpha-sig.figma.com/img/fe50/2c91/678776be52471704ed6aa26cd1d28dd8?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QiOcOmW4pI3zdbRIy~FsfCDeiAEPJ~ABdrN-HK-u-3vVZjkNsB61LDvNkR9SUVAtxQ3xPtK63SKl7NoGBW1hta7iHodghSuzkElrrW~gRC-KzqJYFR6kLC0IULdcRtv226jyLdN0Vi75KH1FNi2HHlngDTWVa3ieNZD-qeZBPZ~Kz1wsvbAdtftPfeFZMl7Y19hnuUbENdLCUrh3aeb9fshdvYf9hFceCyYfOor7pxJ25PUEz-xpy2dJM5HQTsd~JMnVf2caw2il9NqCyMIYzEz91OFSICSxK3P9L69F5nmVkStedViXXuvQVzV3ukUCCeg0AApGyh4ftLoDDchkrg__"
+    src="/Images/image3.png"
     alt="Brown chair"
-    width={345}
-    height={306}
+    width={360}
+    height={261}
     className="object-cover"
   />
 </div>

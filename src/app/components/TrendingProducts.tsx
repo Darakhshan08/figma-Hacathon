@@ -8,25 +8,25 @@ function TrendingProducts() {
       name: "Executive Seat chair",
       price: "$32.00",
       image:
-        "https://s3-alpha-sig.figma.com/img/f465/6277/0a8fe5a5431dd1e8da59ce63ebdf445d?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QVcnM5DRxd4xWZUb7ruHctg90HyVyRfDsGgLAZCuGVMoL8X0S6dEf6JYNpdczj8EkVxI9EXDo4PjvdLEXykkb32hnajaBAFkOnFRLZoBmMw5uUwbM7BfgiBNGNrmNhhtuxPWGks1ZROQ3I7uauYOS7jF0qWJgmXoqPlkiMPN7XGwacXWzWoTWaWd26RvrC3Q9j6twFr7y4ce6vRm3b3qNN1-nrk9v2k8J8rwLDECtTszY92mVZ~GR6s8uY5a94MoGQ20dPtW2qDNBWhelsXLkavLcONGTb5Mbbb1FbcBOpXnOi5FfGkr-BPRb~Zj17VJI6hFhDlGfl5umEF6h8wEnQ__",
+        "/Images/image 30.png",
     },
     {
       name: "Executive Seat chair",
       price: "$32.00",
       image:
-        "https://s3-alpha-sig.figma.com/img/8f9e/3360/812ad9085efca29edde766f48d07bc8c?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YBPj0lVqKPFp7buZ6rA0jFclPPUvK~bBq061MeHufrdNbm7bu5XFJ0EkuDSjNAb2Mvf6wb0CoNgdhiQa76GezRTpGDe1J6bv0niFFTtgfLUO1mSzQFbGQhrI76yNlL4GZfVj9msvZYCw74IDOlj7GtWILpmxRBexQ2sMiRnpHCYevchJSa9~D0ON5JO4Vf~w7k4D8X8gzuz-XjDKRiBUVKHKgj80GNgqKI4-YTvw6iuVwQPc~LUOyUzsA-h4ipyqFTHXxw7o7495kAwQSRQ3o~zyqyRIHK16Rt5HJaDLc20cLWCJN7FlvXCEWsrN2Lk95u~-wztBnWDw9W2WjLrnzw__",
+        "/Images/image 19.png",
     },
     {
       name: "Executive Seat chair",
       price: "$32.00",
       image:
-        "https://s3-alpha-sig.figma.com/img/d6c0/2151/5b60fe030b1c494d6461176139d9d671?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DHcFo5eMyTtJLVjjEgreYEnlrSiAPa1-vaI6lpY9ABZSn7z2sy~hTJxQl0loHEPgC9oxchj~HwW5RFRzJ8mGxRgrYKNl5UNxJVOL6zVaKGtR061ofdglnm6DBcZJxEIasK32MZUe5kttxNvlqeHoO9253GF9CzJ-7mB0IQ64KRMiV59JeQw7eBMTE7ceqVKz9jgASLo4gTRIeVUwfCSYZRO6AyGwM4Tn-CtVcWyhMRBnUEeJKlyy14oYVrGp0avfAsC4y-yZFZuSHBQNlnDCsA50e48ZFB1bTHuv~k~1TvsIHtmK8upz0VVoAaeBRD8nf~J-kT9hS8YjEjqjnyMsfQ__",
+        "/Images/image 28.png",
     },
   ];
 
   return (
     <>
-      <section className="bg-[#F1F0FF] rounded-2xl h-auto lg:h-[579px]">
+      <section className="bg-[#F1F0FF]  h-auto lg:h-[579px]">
         <div className="container mx-auto px-4 py-16">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             {/* Left Side - Chair Image */}
@@ -274,7 +274,7 @@ function TrendingProducts() {
               </ul>
 
 
-              <button className="bg-pink-500 text-white px-8 py-3 rounded">
+              <button className="bg-[#FB2E86] text-white px-10 py-3 rounded">
                 Shop Now
               </button>
             </div>
@@ -282,7 +282,7 @@ function TrendingProducts() {
             <div className="relative">
               <div className="w-[300px] h-[300px] lg:w-[340px] lg:h-[340px] rounded-full bg-pink-100 absolute top-0 bottom-0 left-0 right-0 m-auto" />
               <img
-                src="https://s3-alpha-sig.figma.com/img/72a8/a1fa/c3f4dfc7179464e113c3b725fc00d212?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mb2Akdx0Ks~-gEnQ7jCY4f9dGonGb7mKLnSmdimqrx3Fg2sgLvWsr5eC2lbnKpN2dmJcx0QGLmo4SC7lokqNKmfKWCEmbTFYHyAyUMad4ozfMP-SaOYWQ9ob~oAIN4OJKOdr088FwDN5xJhuDR8OJieogRyWJWpZNJc6bw1OGKXY5KWkihXZ2zJeP1MZ9WLPpRyESdJU7gzpyQWiDLpIK-KQ~UcM6u-YywtdAqkS9N7lq11ymFgUi5SYNC1OtkFTc7b-KILlSpY~2e91bTeZirZpK~aYBjI8CKGgiqwNe8ImZSVMTrtwdXYfiA6sav5P8PU06xhYOsLAcfZYeaC90w__"
+                src="/Images/tortuga1.png"
                 alt="Featured chair"
                 className="relative z-10 w-full h-full object-contain"
               />

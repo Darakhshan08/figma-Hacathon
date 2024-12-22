@@ -50,7 +50,7 @@ function HeroSection() {
             <div className="space-y-6 md:space-y-8">
               <div className="relative">
                 <Image
-                  src="https://s3-alpha-sig.figma.com/img/b0ab/7b45/906d2aaf430d5bb6b86d462a9e91a8af?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kpoOmKWmB6sveVWwYmPqgDk-Z3k-BY4czXh1MaXvmyeNa1Ah-SP3bEZ1sBNGu8PwV~d5HyQ18ppw-6pKmFwXmJW~nTBs9igUOOIYQwcwnxR9SLx9anJXnbBw2IgmYS2jl4i02MbgYUUqlCZ~S6GyxPFsg0Kv8FIDvWGJYXrZIEKZAjgnqrSQ-FjuvIe-Iy05LgFuSik-9eJcVk~DDzaIDNmJWPm6JlXUnbyix1Gbz~YvmgLQMLOZrA27KzdO4C0OMUZEGNGRS62-keSSbHg5g4LCjOHrFtCqOgHcEQ242MmMjyZ~GT0Ng9OPIfdIebK5B~DbB35DABbaqagXQI2nbQ__"
+                  src="/Images/Light.png"
                   alt="Decorative lamp"
                   className="absolute -top-[138px] -left-[228px] w-48 md:w-72 z-0"
                   width={192} // Match the w-48 width (48 * 4 = 192 pixels)
@@ -77,23 +77,25 @@ function HeroSection() {
             </div>
           </div>
 
-          <div className="order-1 md:order-2 relative">
-            <div className="w-[300px] h-[300px] lg:w-[520px] lg:h-[520px] rounded-full bg-pink-200 absolute top-0 bottom-0 left-0 right-0 m-auto" />
-            <Image
-              src="https://s3-alpha-sig.figma.com/img/c453/494a/61ecc67b127029400b09a70cf2e9e973?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bfnjCHRCyGpKFG0MkP9C3u1Ni9VT4laLaRoxphGre-qXfr7F3B6WPRT92guukA~T0SFy2O-s842jF1sEgs4OEahM~aXDtFYsk7sRWbyByMgLcvK3SaZgSwBoR4mvcopt2HGaJi7vrUWqLhHsgI-b~I870glBwplx~jAaC-7gbZFbUk5nTKj2ktd-UY5bynhH9Kaw1aN3ZdRFad2FBdvOAh4vK9q35EWInU4T8dEtGAMEzi2hcVmvFM41uSUspuBvAQ1o9gOw7RW0VoIhA0qlC5kqoAkq5bz0ZS9Q-ZQVTDjrgAMbVZI2nyDBlw229-V3M4lSDVoI8D25XpKejTci9g__"
-              alt="Modern chair"
-              width={500} // Replace with the actual width of the image
-              height={500} // Replace with the actual height of the image
-              className="w-full max-w-2xl mx-auto z-10 relative"
-            />
-            <div className="absolute top-8 right-8 bg-[#00C1FE] text-white rounded-full w-20 h-20 flex items-center justify-center z-20">
-              <div className="text-center">
-                <div className="text-2xl font-bold">50%</div>
-                <div className="text-sm">off</div>
-              </div>
-            </div>
-          </div>
-        </div>
+          <div className="order-1 md:order-2 relative flex justify-center items-center lg:w-[470px] lg:h-[470px]">
+  <div className="w-[300px] h-[300px] lg:w-[470px] lg:h-[470px] rounded-full bg-pink-200 absolute top-0 bottom-0 left-0 right-0 m-auto"></div>
+  
+  <Image
+    src="/Images/Armchair.png"
+    alt="Modern chair"
+    width={500} // Replace with the actual width of the image
+    height={500} // Replace with the actual height of the image
+    className="w-[300px] h-[300px] lg:w-[470px] lg:h-[470px] z-10 relative"
+  />
+  
+  <div className="absolute top-8 right-8 bg-[#00C1FE] text-white rounded-full w-20 h-20 flex items-center justify-center z-20">
+    <div className="text-center">
+      <div className="text-2xl font-bold">50%</div>
+      <div className="text-sm">off</div>
+    </div>
+  </div>
+</div>
+</div>
         {/* Dots Navigation */}
         <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-3">
           {slides.map((_, index) => (

@@ -33,7 +33,7 @@ function ProductDetails() {
         <div className="md:col-span-2 flex flex-row md:flex-col gap-2 sm:gap-3 h-auto md:h-[450px] overflow-hidden">
           <div className="w-32 relative">
             <Image
-              src="https://s3-alpha-sig.figma.com/img/03da/029b/0a8cccaf41b91c6f0575413c23965b0d?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qMnuoHNeKqJEhsuHHfwcaGTVuWywwMUXEa09BCjEe-KDI95T-eMUjcKkADY1Pl5DXmywnbmCHSXudEKXVlZdR9pxh~axLeMMo06NdyQo28nFzwSGILoe3-X08rWnJwd0tCYLEmB8~~pJlMTmdPq82MuO4n4RtHHs8Len2gS7vJje6-7Jb2g1knieLNzvkMMFt71wAkTAdpXecMaTopo50NmSTAdLwNdtw~7X9wnseS7r83ZZ4e5qbT1227EqEfkAdhT82cvdVPjCjowcdWq2zoeCDe3YoRlYhyBWRXCJfM5yosIp7EUkFp5YZnyeLsG9aXE99B60v9q73fTBAtrjpg__"
+              src="/Images/Rectangle 134.png"
               alt="Product thumbnail 1"
               width={151}
               height={158}
@@ -42,19 +42,19 @@ function ProductDetails() {
           </div>
           <div className="w-32  relative">
             <Image
-              src="https://s3-alpha-sig.figma.com/img/ecbe/ac3f/a9e2004573e1a08397ce10b25d96422c?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MvdlzYVOU0I-5THMS7zhB7MLw6AQQFXq1f~Q0uiefmb-pm~NQGyKc6Cky4bLmposNJKB3GXeHEBAEo5~pZXvXqMofFqa~ZNVC1aQM0OVBoupQ3oeZQEjhHl~UT~7KRXiICGJNpssnTuKv3WJcu1XJu0WE7rC8a1JAtCeX6vvwK3vxc5su~44sAR-Z1rqwHdI-p1HXMu990fGJ4PjFHSN~5V~3Dai8gT4001RJPfnVdCAo-aP8IWV5ujzRetwWvQCuTbQLfOEBTC7eoFJ1kyw4dW32paMAJbGWJBuxtytBtT4Cryccaf8E~z6IUJkgM1gxlxnFuLw9TWX5JO0BmQQSQ__"
+              src="/Images/Rectangle 136.png"
               alt="Product thumbnail 2"
-              width={128}
-              height={0}
+              width={151}
+              height={158}
               className="object-cover rounded"
             />
           </div>
           <div className="w-32 relative">
             <Image
-              src="https://s3-alpha-sig.figma.com/img/848b/9094/1cd9a4e9bebaa6cfba09c590bd700c1b?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MMuYq1pFMuKf8GC2mFW5Bkup2IbIYkXj88cMAbq3Hi3WBbEcsWc3~E7Wr3-~SebXmAI0m2XE8nbKe2U1jhwlE~NSTVnyH-9OUtrQrVkX-IoY4xT7S5PmtZGUA3q-PUYpypaxRrtSKE17NZBE7RYkeYpmyjjHB1kHilnxgLc1DjCGRIxGqTcO9j4jIZUfL0~thUtXmkCL1KeqrAkEcyoMQTdRSatJKOrNmpsvFknyEfnkpNEZBQVxJzDb4nzGSR1oIHz5CUiqgWK0c9sq9J2YGwCLWiiaBCrVpcakK5LKZaslAka~wjtn9X1xKs2ulzNqMnTSytxNCQ9i-N0KOLC32g__"
+              src="/Images/Rectangle 137.png"
               alt="Product thumbnail 3"
-              width={128}
-              height={0}
+              width={151}
+              height={158}
               className="object-cover rounded"
             />
           </div>
@@ -62,10 +62,10 @@ function ProductDetails() {
 
 
         {/* Main Image */}
-        <div className="md:col-span-5 h-[300px] sm:h-[400px] md:h-[450px] w-full">
+        <div className="md:col-span-4 h-[487px] sm:h-[400px] md:h-[450px] w-full">
           <div className="relative w-full h-full">
             <Image
-              src="https://s3-alpha-sig.figma.com/img/5e29/37d7/bae8dbd83e04e7a1c34f5c4b911eba0d?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XPUdtpF1lgtDXTGWb7L7gq3pBgPtDqJHi9PAF5OT491s36AZL4VP2QKIBzbnEY27qXTy3RKiXVIBMnuH2c2tQT6qBZo9VahgpeuCAO8gtzNVk4dKgbcX9x9mkhLrtdxwLj20AS4I7ifI9XKFg9SPuN-21IlR5e0w2PmUsHnPs5lfZt6bE~Rp0BrmDTyLxGjAgdHEO~xSjJ96xlMispG5UbuWbXliuTxIOU6z8OukdfFwyzQyxxKpOitjLbkgLuerjoBoNspW38v5-GNTe5jYUyMBVHG~o5vg-DaR2xdceG40NUQJWKFHqUMU35UlxJOAyqWwpjNQNrVQiO6R1ZDHmA__"
+              src="/Images/Rectangle 138.png"
               alt="Playwood arm chair main"
               layout="fill" // This ensures the image covers the container
               className="object-cover rounded"

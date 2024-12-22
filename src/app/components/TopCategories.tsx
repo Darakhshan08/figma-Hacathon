@@ -8,26 +8,26 @@ function TopCategories() {
         id: 1,
         name: "Mini LCW Chair",
         price: 56.0,
-        image: "https://s3-alpha-sig.figma.com/img/b385/2c7e/ad352f97e7cdd9b4848c0ae24630f6ae?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MNw-pIQfCkFDFoTWPWU8I6KyAEWjecYOimhZhN8UWGq2GMHdCPt0nxvbuK8SI34RLT4BOAURfQPpFXkqyL~ndZy1MEBf7KyXF9iarR6ztQ7szcpV50mnyM4gjWKSQPzMs~5vGxKJSQ7m6zgpm2qwKLgfEqEbn-si0TUVfLLUlkKqlJfc0DyuYuLDbeFjq4t2iVbKQ0WU5eOZFmuiXPvDiS32Y3vO7AP9rRHXDBIyvM-qyvr0NiqfmC8VP0VHyLsssGTOLDVFpUOV2zjIrRnNwbYylYlKpGCqd1GAxea8WNspaQwLTxdPH6BO2sHlybYtF0uaeOq64opGBW2kzZ3ExA__",
+        image: "https://s3-alpha-sig.figma.com/img/b385/2c7e/ad352f97e7cdd9b4848c0ae24630f6ae?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E4FchMWoY1F2RuUDywhgquc9Fe0jwy6fD2NfIFRocA6EbptS02uNEnk10KdbWtu87WFYDQy85MLV0fjOvG2i9UlC5IVytK6rst60DtIHn8O54rRKDNGpSzK0e22YXmsieEMoaAa3bE3dKt~jhn5BDW6tuhyaMR-yxxWJnS1-YoUafZJvioJ2KV0PGOrg-dmrGYG1tWA2V7BSU7ciuK9tRyzUUMP-LILhBqUVfCxSJBIDl8x9WCDObNY9sbKl1VpbjZJlOvo6ptlzYwSj-CJWyuL-YIyKUkBwLHXLSK3mpi5YFVqu1bT7XeRIQtxNw9fWMBQAXCCJSLSrcwDZPeRKQw__",
         hotDeal: true,
       },
       {
         id: 2,
         name: "Mini LCW Chair",
         price: 56.0,
-        image: "https://s3-alpha-sig.figma.com/img/1ade/62f0/6db0a7630b347e6423288fc09447f1a8?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A1ASbX5PQ2xgkZQUVT7fty3DynXlxANL8qO7IW9wlpV268-RxQDtE0hx8rHqWqchih~We1J7ct41jlqizDklTOyDwJf5rNeexRN0TQ4ofReelqg8AAuSqkLUmt5CRUl0gMtBipAaF6qgJHFfXKsXhYeLJ3xkLNjy3YHciF5OtkD~ion-eT4JSywJ14Llo~WekPvS9oB6Vcrrf66ItGWDKcZ0Q36qjQDhv96sBH~gPG~xVzO8N7RWSWdqDTVd-k6DvfIpRZGhEIM-Xq4SzNW0Zg85v9CcuqGx~kqQtYx9qngixxXg3moXFnASwQurY8uP7m3xjVf7nYkMx-KrVER0oA__",
+        image: "/Images/image6.png",
       },
       {
         id: 3,
         name: "Mini LCW Chair",
         price: 56.0,
-        image: "https://s3-alpha-sig.figma.com/img/6eac/9ed6/f0567dbeace7c9dbaa02b7b75570f3bc?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ShVtA8s5iMjpp1sml5nxcqBFOpIzBbKAJ8jaIOpRs9DlTNoPt0BXSMHJGOYcD9GJuxcQMfK65AZQbt3iRLKEPWZno5T2nOtoVdknkpq~6so-NYD9K9d4DSAlhMqsRX7~FD0cY0LVnIV4AZGVNYjMy96ZhPu6J7LdCcO0ABt5U6K1s-qJr4vKes7Lk0BzEmxnvEL6QXYVyDhXfxSv2E0-zsv3W53ISLmOZKrDjZW1bwXhvly9FlDBEUJVL7rQdy-ZFi7GQraClo5gDVt2B7FyNQZ0~GOcgat7STo-jfgbFRPrAofscNPDGjPxf2PfBxigr1cYwXY64zoCB27KbmjvyQ__",
+        image: "https://s3-alpha-sig.figma.com/img/6eac/9ed6/f0567dbeace7c9dbaa02b7b75570f3bc?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KHZ91AicM~udtZaokm85PZJYPJKSq1csMG7BQewasuxHQvAsfBRyuqM5egF6pEBAgECMs0kb3E-KmGwg3g95WydXp5KwIgLIkcI8ry8EQo2XnxlDIlH7c2qc2BugLDpnr0woXsSojxbH9OCwqTBgGFRSobZ~-AcgxQ2~9Ui9jb6Fj4To7ZQwIp-wq5Xsp5gU69SUOFXcPyWtnr8PwqZNaMZMtaklph0CxCf9CAsSvCwmu~uPY9LJo2iqpt-ECejmkn0lRBrRMei6vISUbcd~DyMyjNdJSBajfoWnQF6woQ9dAzupzAwowsnU5R1yv1C45yLItwDsR2-C2ZC7K6UMrA__",
       },
       {
         id: 4,
         name: "Mini LCW Chair",
         price: 56.0,
-        image: "https://s3-alpha-sig.figma.com/img/b385/2c7e/ad352f97e7cdd9b4848c0ae24630f6ae?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MNw-pIQfCkFDFoTWPWU8I6KyAEWjecYOimhZhN8UWGq2GMHdCPt0nxvbuK8SI34RLT4BOAURfQPpFXkqyL~ndZy1MEBf7KyXF9iarR6ztQ7szcpV50mnyM4gjWKSQPzMs~5vGxKJSQ7m6zgpm2qwKLgfEqEbn-si0TUVfLLUlkKqlJfc0DyuYuLDbeFjq4t2iVbKQ0WU5eOZFmuiXPvDiS32Y3vO7AP9rRHXDBIyvM-qyvr0NiqfmC8VP0VHyLsssGTOLDVFpUOV2zjIrRnNwbYylYlKpGCqd1GAxea8WNspaQwLTxdPH6BO2sHlybYtF0uaeOq64opGBW2kzZ3ExA__",
+        image: "https://s3-alpha-sig.figma.com/img/b385/2c7e/ad352f97e7cdd9b4848c0ae24630f6ae?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E4FchMWoY1F2RuUDywhgquc9Fe0jwy6fD2NfIFRocA6EbptS02uNEnk10KdbWtu87WFYDQy85MLV0fjOvG2i9UlC5IVytK6rst60DtIHn8O54rRKDNGpSzK0e22YXmsieEMoaAa3bE3dKt~jhn5BDW6tuhyaMR-yxxWJnS1-YoUafZJvioJ2KV0PGOrg-dmrGYG1tWA2V7BSU7ciuK9tRyzUUMP-LILhBqUVfCxSJBIDl8x9WCDObNY9sbKl1VpbjZJlOvo6ptlzYwSj-CJWyuL-YIyKUkBwLHXLSK3mpi5YFVqu1bT7XeRIQtxNw9fWMBQAXCCJSLSrcwDZPeRKQw__",
       },
     ];
 
@@ -88,7 +88,7 @@ function TopCategories() {
       className="relative h-[300px] sm:h-[350px] lg:h-[400px] bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('https://s3-alpha-sig.figma.com/img/fc5b/0171/c1d0c8969022c818d8d4ef9026d858fa?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d42H0Jj567jR-V6B5PhRpNI7Cjsz0x81-JWcvcXv0MZ12bdYHQlDZNly6G13DqIO~6UuhlyPBN0ORWG879~aKbYhk2~wAFmQ4qjrCuN8H~uZnmbatZgXySipFfy0gXv~UaF9EsBk0BSMOqRLoj3ytWtvpghdE3MRMU7RRIxVddx7qdGsjuYepWOIT5btyw22jI~HhS-RZEaKj~95Rv9F1EIUkbe20cySUwFMb7QibrnR45tYQ3aMq0vX6VohRGNLDWRojcY9Hn-6GevIZ1nGry5vh2kFYXPvyOYomI6DiZzJfzjscCO2VoUFjTs4xq15UzbT-0GQYiXOGrbFb~IzZA__')",
+          "url('/Images/Rectangle 102.png')",
       }}
     >
       <div className="absolute inset-0 " />
