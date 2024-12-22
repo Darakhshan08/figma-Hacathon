@@ -149,8 +149,8 @@ function Header() {
                       </ul>
                     )}
                   </div>
-                  <a className="block px-4 py-2 text-gray-600">Pages</a>
-                  <Link href="" className="block px-4 py-2 text-gray-600">
+                  <Link href='/checkout' className="block px-4 py-2 text-gray-600">Pages</Link>
+                  <Link href="/details" className="block px-4 py-2 text-gray-600">
                     Products
                   </Link>
                   <a className="block px-4 py-2 text-gray-600">Blog</a>
@@ -160,6 +160,7 @@ function Header() {
                   <Link href="/contact" className="block px-4 py-2 text-gray-600">
                     Contact
                   </Link>
+                  
                 </div>
               </div>
             </div>
