@@ -4,25 +4,21 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-
-function page() {
+function Page() {
     const [cartItems, setCartItems] = useState([
         {
             id: 1,
             name: "Ut diam consequat",
-            image:
-                "/Images/Rectangle 34.png",
+            image: "/Images/Rectangle 34.png",
             color: "Brown",
             size: "XL",
             price: 32.0,
             quantity: 1,
-
         },
         {
             id: 2,
             name: "Vel faucibus posuere",
-            image:
-                "/Images/Rectangle 35.png",
+            image: "/Images/Rectangle 35.png",
             color: "Brown",
             size: "XL",
             price: 32.0,
@@ -31,8 +27,7 @@ function page() {
         {
             id: 3,
             name: "Ac vitae vestibulum",
-            image:
-                "/Images/Rectangle 36.png",
+            image: "/Images/Rectangle 36.png",
             color: "Brown",
             size: "XL",
             price: 32.0,
@@ -41,8 +36,7 @@ function page() {
         {
             id: 4,
             name: "Elit massa diam",
-            image:
-                "/Images/Rectangle 37.png",
+            image: "/Images/Rectangle 37.png",
             color: "Brown",
             size: "XL",
             price: 32.0,
@@ -51,55 +45,55 @@ function page() {
         {
             id: 5,
             name: "Proin pharetra elementum",
-            image:
-                "/Images/Rectangle 38.png",
+            image: "/Images/Rectangle 38.png",
             color: "Brown",
             size: "XL",
             price: 32.0,
             quantity: 1,
         },
     ]);
+
     const increaseQuantity = (productId: number) => {
         setCartItems(
             cartItems.map((item) =>
                 item.id === productId
-                    ? {
-                        ...item,
-                        quantity: item.quantity + 1,
-                    }
+                    ? { ...item, quantity: item.quantity + 1 }
                     : item,
             ),
         );
     };
+
     const decreaseQuantity = (productId: number) => {
         setCartItems(
             cartItems.map((item) =>
                 item.id === productId && item.quantity > 1
-                    ? {
-                        ...item,
-                        quantity: item.quantity - 1,
-                    }
+                    ? { ...item, quantity: item.quantity - 1 }
                     : item,
             ),
         );
     };
+
     const removeItem = (productId: number) => {
         setCartItems(cartItems.filter((item) => item.id !== productId));
     };
+
     const clearCart = () => {
         setCartItems([]);
     };
+
     const calculateSubtotal = () => {
         return cartItems.reduce(
             (total, item) => total + item.price * item.quantity,
             0,
         );
     };
+
     const calculateTotal = () => {
         const subtotal = calculateSubtotal();
         const shipping = 106.0; // Example shipping cost
         return subtotal + shipping;
     };
+
     const subtotal = calculateSubtotal();
     const total = calculateTotal();
 
@@ -112,18 +106,18 @@ function page() {
                         Shopping Cart
                     </h1>
                     <nav className="text-base sm:text-sm font-medium">
-                        <span className="text-base font-medium ">Home</span> • <span className="text-base font-medium ">Pages</span> •{" "}
-                        <span className="text-[#FB2E86] text-base font-medium ">Shopping Cart</span>
+                        <span className="text-base font-medium">Home</span> • <span className="text-base font-medium">Pages</span> •{" "}
+                        <span className="text-[#FB2E86] text-base font-medium">Shopping Cart</span>
                     </nav>
                 </div>
             </header>
 
+            {/* Main content */}
             <div className="max-w-7xl mx-auto px-4 py-24">
                 <div className="flex flex-col lg:flex-row gap-8">
+                    {/* Cart Items */}
                     <div className="overflow-x-auto lg:overflow-hidden">
-
                         <table className="w-full lg:w-[80%] min-w-[800px]">
-
                             <thead>
                                 <tr className="border-b">
                                     <th className="text-left text-xl pb-4 pl-12">Product</th>
@@ -186,9 +180,7 @@ function page() {
                                 ))}
                             </tbody>
                         </table>
-
-
-
+                        {/* Cart Actions */}
                         <div className="flex justify-between mt-8">
                             <button className="px-6 py-2 bg-[#FB2E86] text-white rounded hover:bg-pink-600">
                                 Update Cart
@@ -202,6 +194,7 @@ function page() {
                         </div>
                     </div>
 
+                    {/* Cart Summary */}
                     <div className="w-full lg:w-1/3 space-y-6">
                         <div className="bg-[#E8E6F1] border-b border-[#C7CEE4] rounded-lg shadow-sm p-6">
                             <h2 className="text-xl text-center font-semibold text-[#1D3178] mb-2">
@@ -211,29 +204,24 @@ function page() {
                                 <span className="text-[#1D3178] text-lg font-semibold">Subtotals:</span>
                                 <span className="font-medium text-base text-[#15245E]">£{subtotal.toFixed(2)}</span>
                             </div>
-
                             <div className="flex justify-between mb-6 pb-4 border-b border-[#C7CEE4]">
                                 <span className="text-[#1D3178] text-lg font-semibold">Totals:</span>
                                 <span className="font-medium text-base text-[#15245E]">£{total.toFixed(2)}</span>
                             </div>
-
                             <div className="flex items-center gap-2 mb-6">
                                 <input
                                     type="checkbox"
-                                    className=" h-4 w-4 text-white border-gray-300 rounded focus:ring-[#19D16F] checked:bg-[#19D16F] checked:border-[#19D16F]"
+                                    className="h-4 w-4 text-white border-gray-300 rounded focus:ring-[#19D16F] checked:bg-[#19D16F] checked:border-[#19D16F]"
                                 />
-
                                 <p className="text-sm text-[#8A91AB]">
                                     Shipping & taxes calculated at checkout
                                 </p>
                             </div>
-
                             <button className="w-full py-2.5 bg-[#19D16F] text-white rounded-lg font-medium hover:bg-green-600 transition-colors">
-                               <Link href="/checkout">
-                                Proceed To Checkout
-                                </Link>
+                                <Link href="/checkout">Proceed To Checkout</Link>
                             </button>
                         </div>
+
                         <h2 className="text-xl font-semibold text-center text-[#1D3178] mb-4">
                             Calculate Shopping
                         </h2>
@@ -265,8 +253,7 @@ function page() {
                 </div>
             </div>
         </>
-
-    )
+    );
 }
 
-export default page
+export default Page;

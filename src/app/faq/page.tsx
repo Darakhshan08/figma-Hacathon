@@ -1,24 +1,29 @@
 "use client";
-import { Send } from "lucide-react";
+
 import Image from "next/image";
 import React, { ChangeEvent, FormEvent, useState } from "react";
+
 interface FormData {
   name: string;
   subject: string;
   message: string;
 }
-const faq = () => {
+
+const Faq: React.FC = () => {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     subject: "",
     message: "",
   });
+
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission
+    console.log("Form submitted:", formData);
+    // Perform form submission logic here
   };
+
   const handleChange = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -176,4 +181,4 @@ const faq = () => {
     </main>
   );
 };
-export default faq;
+export default Faq;

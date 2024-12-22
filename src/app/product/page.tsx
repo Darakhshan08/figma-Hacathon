@@ -1,5 +1,5 @@
 import React from 'react'
-import { List, Heart, Eye, RefreshCw, ShoppingCart, ZoomIn, Grid2x2 } from "lucide-react";
+import { List, Heart, ShoppingCart, ZoomIn, Grid2x2 } from "lucide-react";
 import Image from 'next/image';
 
 function page() {
