@@ -46,11 +46,11 @@ function Header() {
                 </button>
               </div>
               {isDropdownOpen && (
-                <ul className="absolute left-0 mt-2 bg-white border rounded shadow-lg py-2">
+                <ul className="absolute left-0 mt-2 z-20 bg-white border rounded shadow-lg py-1">
                   <li>
                     <Link
                       href="/about"
-                      className="block px-4 py-2 text-gray-600 hover:text-[#FB2E86]"
+                      className="block px-4 py-1 text-gray-600 hover:text-[#FB2E86]"
                     >
                       About
                     </Link>
@@ -58,7 +58,7 @@ function Header() {
                   <li>
                     <Link
                       href="/details"
-                      className="block px-4 py-2 text-gray-600 hover:text-[#FB2E86]"
+                      className="block px-4 py-1 text-gray-600 hover:text-[#FB2E86]"
                     >
                       Details
                     </Link>
@@ -66,9 +66,17 @@ function Header() {
                   <li>
                     <Link
                       href="/faq"
-                      className="block px-4 py-2 text-gray-600 hover:text-[#FB2E86]"
+                      className="block px-4 py-1 text-gray-600 hover:text-[#FB2E86]"
                     >
                       Faq
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/404"
+                      className="block px-4 py-1 text-gray-600 hover:text-[#FB2E86]"
+                    >
+                      404
                     </Link>
                   </li>
                 </ul>
@@ -146,6 +154,14 @@ function Header() {
                             Faq
                           </Link>
                         </li>
+                        <li>
+                          <Link
+                            href="/404"
+                            className="block px-4 py-2 text-gray-600 hover:text-[#FB2E86]"
+                          >
+                            404
+                          </Link>
+                        </li>
                       </ul>
                     )}
                   </div>
@@ -153,7 +169,7 @@ function Header() {
                   <Link href="/details" className="block px-4 py-2 text-gray-600">
                     Products
                   </Link>
-                  <a className="block px-4 py-2 text-gray-600">Blog</a>
+                  <Link href="/blog" className="block px-4 py-2 text-gray-600">Blog</Link>
                   <Link href="/product" className="block px-4 py-2 text-gray-600">
                     Shop
                   </Link>
